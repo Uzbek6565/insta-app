@@ -48,7 +48,7 @@ class NotificationServiceImpl(
 ) : NotificationService {
     override fun create(dto: NotificationDto) {
         dto.run {
-
+            notificationRepository.save(Notification(userId, Activity.valueOf(activityType), sourceUserId, postId, messageId, isRead))
         }
     }
 
