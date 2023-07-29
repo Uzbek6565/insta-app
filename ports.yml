@@ -1,0 +1,7 @@
+config: 8888
+discovery: 8761
+gateway: 8080
+user: 8210
+post: 8220
+comment: 8230
+notification: 8240
